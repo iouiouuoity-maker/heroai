@@ -1,0 +1,9 @@
+name = "geroi360-ai-new"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[ai]
+binding = "AI"
+
+# Set ALLOWED_ORIGIN in Cloudflare Worker environment variables to your exact GitHub Pages origin.
+# Optional rate limiting binding RATE_LIMIT can be added through Cloudflare dashboard.
